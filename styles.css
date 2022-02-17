@@ -67,9 +67,10 @@
   .greece3{
     height: 166.66px;
     width: 33.33px;
-    right: 872px;
+    right: auto;
     background-color: white;
-    position: absolute;
+    position: relative;
+    left: 65px;
   }
   
   .threevert {
@@ -93,6 +94,7 @@
     height: 150px;
     width: 150px;
     position: relative;
+    z-index: 2;
     left: 9px;
     top: 50pt;
   }
