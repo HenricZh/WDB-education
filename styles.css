@@ -50,17 +50,17 @@
     height: 11.12%;
   }
 
-  .greece1 {
-    height: 166.66px;
-    width: 166.66px;
-    background-color: blue;
-    position: absolute;
-  }
-
   .greece2 {
     height: 33.33px;
     width: 166.66px;
     background-color: white;
+    position: absolute;
+  }
+
+  .greece1 {
+    height: 166.66px;
+    width: 166.66px;
+    background-color: blue;
     position: absolute;
   }
 

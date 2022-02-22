@@ -1,0 +1,138 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+    .beast {
+        position: absolute;
+        z-index: 4;
+        width: 18%;
+        height: 300px;
+        margin-top: 12%;
+        margin-left: 52%;
+    }
+
+    .contact-button {
+        padding: 5px; 
+        margin-top: 0px; 
+        background-color: black; 
+        border: none; 
+        border-radius: 9px; 
+        color: white;
+    }
+
+    .splash-page {
+        display: flex;
+        justify-content: stretch;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .first-black-box {
+        margin-top: 0px;
+        padding-top: 0px;
+        top: 0%;
+        height: 600px;
+        width: 70%;
+        background-color: rgb(32, 30, 30);
+    }
+
+    .portfolio {
+        background-color: rgb(32, 30, 30);
+        height: 1000px;
+        width: 100%;
+        top: 60px;
+        margin-top: 15px;
+        padding-left: 0px;
+        display:grid;
+        grid-template-columns: 40% 40%;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+
+    .box {
+        background-color:rgb(32, 30, 30);
+        padding:10px;
+        border-radius:10px;
+        color:black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-family: sans-serif;
+        z-index: 4;
+        position: relative;
+        margin: 15px;
+        flex-direction: column;
+    }
+
+    .project-box {
+        font-size: 30px;
+        border: 3px;
+        background-color: white;
+        margin: 10px;
+        width: 500px;
+        height: 20%;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .boxtwo {
+        font-size: 30px;
+        border: 3px;
+        background-color: rgb(32, 30, 30);
+        margin: 10px;
+        width: 500px;
+        height: 370px;
+        border-radius: 20px;
+        padding-top: 10px;
+        margin-top: 45px;
+        display: flex;
+        margin-left: 35px;
+    }
+
+    .project-boxtwo {
+        font-size: 30px;
+        border: 3px;
+        background-color: white;
+        margin-right: 10px;
+        width: 250px;
+        height: 360px;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .first-white-box {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 100px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-button {
+        margin-top: 7%;
+        color: white;
+        transition: transform 0.5s 0.25s ease;
+        width: 40px;
+        padding: 0px;
+    }
+
+    .nav-button:hover {
+        width: 40px;
+        transform: scale(1.6);
+        text-decoration: underline;
+    }
